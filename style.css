@@ -1,0 +1,15 @@
+.paraghar{
+    color: green;
+    background-color: antiquewhite;
+}
+.create-tabel{
+    background-color: antiquewhite;
+    border-collapse: collapse;
+    padding: 2px;
+    margin: 2%;
+    width: 100%;
+    text-align: center;
+}
+.create-tabel td{
+    border: 1px solid gray;
+}
