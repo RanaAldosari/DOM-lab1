@@ -4,6 +4,7 @@ haeder.style.backgroundColor = "green";
 
 let paraghrap = document.getElementById("paraghrap");
 paraghrap.style.fontWeight = "bold";
+paraghrap.classList.add("paragraph-d");
 
 let imgtagName=document.getElementsByTagName("img")
 imgtagName[0].src="hero.jpg"
@@ -27,7 +28,7 @@ let list3=document.querySelectorAll("li")[2]
 list3.innerText="3"
 list3.style.color="red"
 // list3.style.border="1px solid black"
-
+let tabelContainer=document.getElementById('div-tabel')
 let table=document.createElement('table');
 table.classList.add("create-tabel");
 for(let i=0;i<2; i++){
@@ -39,4 +40,4 @@ for(let i=0;i<2; i++){
     }
     table.appendChild(row)
 }
-document.getElementById('div-tabel').appendChild(table)
+tabelContainer.appendChild(table)

@@ -1,7 +1,4 @@
-.paraghar{
-    color: green;
-    background-color: antiquewhite;
-}
+
 .create-tabel{
     background-color: antiquewhite;
     border-collapse: collapse;
@@ -12,4 +9,8 @@
 }
 .create-tabel td{
     border: 1px solid gray;
+}
+.paragraph-d{
+    color: green;
+    background-color: antiquewhite;
 }
