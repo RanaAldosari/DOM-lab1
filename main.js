@@ -4,7 +4,8 @@ haeder.style.backgroundColor = "green";
 
 let paraghrap = document.getElementById("paraghrap");
 paraghrap.style.fontWeight = "bold";
-paraghrap.classList.add("paragraph-d");
+paraghrap.setAttribute("class","pa")
+
 
 let imgtagName=document.getElementsByTagName("img")
 imgtagName[0].src="hero.jpg"
